@@ -1,0 +1,2 @@
+device="cpu"
+half=False

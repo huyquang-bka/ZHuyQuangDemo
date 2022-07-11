@@ -1,0 +1,10 @@
+venv
+.idea
+__pycache__
+.DS_Store
+Video/*
+!Video/.gitkeep
+Video_Storage/*
+!Video_Storage/.gitkeep
+Crop/*
+!Crop/.gitkeep
