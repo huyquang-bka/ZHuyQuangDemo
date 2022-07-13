@@ -1,2 +1,2 @@
-device="cpu"
+device="0"
 half=False

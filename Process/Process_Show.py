@@ -61,7 +61,7 @@ class ThreadShow(QtCore.QThread):
                 for k, v in id_dict.items():
                     if k in list(self.summary_dict.keys()):
                         color, brand, plate, speed, plate_color = self.summary_dict[k]
-                        if plate:
+                        if plate and speed:
                             try:
                                 crop = self.crop_dict[k]
                                 del self.crop_dict[k]

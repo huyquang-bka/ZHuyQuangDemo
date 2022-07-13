@@ -1,7 +1,6 @@
 from PyQt5 import QtCore
 import time
 import cv2
-from Yolov5.detect_yolov5 import Detection
 from Polygon.Polygon import plate_polygon, detect_polygon
 
 

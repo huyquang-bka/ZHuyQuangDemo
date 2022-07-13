@@ -33,7 +33,7 @@ class ThreadCapture(QtCore.QThread):
             cv2.putText(frame, str(fps), (30, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
             if self.queue_capture.qsize() < 1 and frame is not None:
                 self.queue_capture.put(frame)
-            QtCore.QThread.msleep(100)
+            QtCore.QThread.msleep(20)
 
     def stop(self):
         print('Stopping Capture Thread')

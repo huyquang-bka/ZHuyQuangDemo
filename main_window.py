@@ -64,7 +64,6 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
         self.count_add_to_widget += 1
 
     def add_info_to_widget(self, widget, vehicle_info):
-        print(vehicle_info)
         color = vehicle_info['color']
         brand = vehicle_info['brand']
         plate = vehicle_info['plate']
